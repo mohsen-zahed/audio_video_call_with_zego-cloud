@@ -6,7 +6,9 @@ import 'dart:math' as math;
 final String localUserID = math.Random().nextInt(1000).toString();
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
